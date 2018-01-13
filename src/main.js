@@ -6,6 +6,8 @@ import {
   Vuetify,
   VApp,
   VNavigationDrawer,
+  VCarousel,
+  VCard,
   VFooter,
   VList,
   VBtn,
@@ -23,6 +25,8 @@ Vue.use(Vuetify, {
   components: {
     VApp,
     VNavigationDrawer,
+    VCarousel,
+    VCard,
     VFooter,
     VList,
     VBtn,
@@ -30,7 +34,7 @@ Vue.use(Vuetify, {
     VGrid,
     VToolbar,
     transitions
-  }
+  },
 })
 
 Vue.config.productionTip = false
